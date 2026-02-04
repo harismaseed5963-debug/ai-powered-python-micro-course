@@ -1,0 +1,25 @@
+# # Learning Python - Day 22
+# # 1. Writing Cleaned to Csv in Python
+
+# # Practical Examples of the Day 22
+ 
+# # Clean Customer Names (strip + title)
+
+# import csv
+
+# cleaned_rows = []
+# with open("day22_raw_data.csv", "r") as f:
+#     reader = csv.DictReader(f)
+
+#     for row in reader:
+#         row["Customer_Name"] = row["Customer_Name"].strip().title()
+#         cleaned_rows.append(row)
+
+# #print(cleaned_rows)
+# with open("cleaned_customers.csv","w", newline="") as f:
+#     writer = csv.DictWriter(f, fieldnames=reader.fieldnames)
+#     writer.writeheader()
+#     writer.writerows(cleaned_rows)
+
+# print("Cleaned CSV Created : cleaned_customers.csv")
+
