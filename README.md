@@ -1,4 +1,4 @@
-🧠 Satish Dhawale AI Powered Python Course
+AI Powered Python Micro Course 
 
 This repository contains my code and notes for the Satish Dhawale AI Powered Python Course.
 It includes all 30 days of hands-on learning in Python programming and practical applications for AI-powered data handling.
