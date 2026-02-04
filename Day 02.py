@@ -26,4 +26,5 @@
 # print("Product Price:", product_price)  # Output: Product Price: 80000
 # print("Product Quantity:", product_quantity)  # Output: Product Quantity: 5
 # print("Customer Name:", customer_name)  # Output: Customer Name: Ali
+
 # print("Customer Budget:", customer_budget)  # Output: Customer Budget: 100000
